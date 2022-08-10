@@ -4,7 +4,7 @@ int main()
 {
     // getting decimal value from user to convert
     int decimal;
-    int remainder[sizeof(decimal)];
+    int remainder[sizeof(decimal) * 8];
     int i;
 
     std::cout << "Enter a decimal: ";
